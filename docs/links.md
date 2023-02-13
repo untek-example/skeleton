@@ -3,8 +3,6 @@
 ## Post
 
 * https://habr.com/ru/post/269589/
-
-
 * https://github.com/danitome24/silex-ddd-skeleton
 * https://github.com/yceruto/symfony-ddd-skeleton
 * https://github.com/Antonyan/ddd-skeleton
