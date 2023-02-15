@@ -1,7 +1,11 @@
-# Links
+# Исходный материал
 
-## Post
+Для реализации шаблона были проанализированы несколько источников.
 
+## Ссылки на источники
+
+* https://github.com/search?p=3&q=ddd-skeleton&type=Repositories
+* https://awesomeopensource.com/projects/ddd-patterns
 * https://habr.com/ru/post/269589/
 * https://github.com/danitome24/silex-ddd-skeleton
 * https://github.com/yceruto/symfony-ddd-skeleton
@@ -15,16 +19,3 @@
 * https://github.com/temafey/symfony-skeleton/blob/master/public/index.php
 * https://github.com/ivanpaulovich/event-sourcing-castanha
 * https://github.com/wilmerkrisp/patterns
-
-## Docker
-
-* https://github.com/laradock/laradock
-* https://github.com/Maxlab/stacker
-* https://github.com/jolicode/docker-starter
-* https://github.com/ger86/symfony-docker
-* https://github.com/mykiwi/symfony-bootstrapped\
-
-## Search
-
-* https://github.com/search?p=3&q=ddd-skeleton&type=Repositories
-* https://awesomeopensource.com/projects/ddd-patterns
