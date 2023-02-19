@@ -57,12 +57,6 @@ class Kernel extends BaseKernel
         $this->doConfigureContainer($container, $this->context);
     }
 
-    protected function configureRoutes(RoutingConfigurator $routes): void
-    {
-        $this->doConfigureRoutes($routes);
-        $this->doConfigureRoutes($routes, $this->context);
-    }
-
     private function doConfigureContainer(ContainerConfigurator $container, string $context = null): void
     {
         $confDir = $this->getProjectDir().($context ? '/context/'.$context : '').'/config';
@@ -76,6 +70,12 @@ class Kernel extends BaseKernel
         } else {
             $container->import($confDir.'/{services}.php');
         }
+    }
+
+    protected function configureRoutes(RoutingConfigurator $routes): void
+    {
+        $this->doConfigureRoutes($routes);
+        $this->doConfigureRoutes($routes, $this->context);
     }
 
     private function doConfigureRoutes(RoutingConfigurator $routes, string $context = null): void
