@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2d358dc-7e55-4acf-944c-3755519a9ed4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/ddd/skeleton.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ddd/skeleton.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/links.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/project-template.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/project-template.md" afterDir="false" />
+    <list default="true" id="b2d358dc-7e55-4acf-944c-3755519a9ed4" name="Default Changelist" comment="upd">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -30,6 +28,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,10 +42,32 @@
       <option name="presentableId" value="Default" />
       <updated>1676394600263</updated>
       <workItem from="1676394601438" duration="46000" />
+      <workItem from="1676807755834" duration="2255000" />
     </task>
+    <task id="LOCAL-00001" summary="upd">
+      <created>1676810572312</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676810572312</updated>
+    </task>
+    <task id="LOCAL-00002" summary="upd">
+      <created>1676810621923</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676810621923</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="upd" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd" />
   </component>
 </project>
