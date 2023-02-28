@@ -20,3 +20,15 @@
     │   │   ├── Infrastructure/
     │   │   └── Presentation/
 
+* src/
+    * Module/
+        * SubModule/
+            * Application/
+            * Domain/
+            * Infrastructure/
+            * Presentation/
+    * Shared/
+        * Application/
+        * Domain/
+        * Infrastructure/
+        * Presentation/

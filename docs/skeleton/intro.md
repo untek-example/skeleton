@@ -2,9 +2,7 @@
 
 Организация и управление несколькими приложениями с помощью контекстов.
 
-Этот шаблон проекта предназначен для реализации [Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) (DDD)
-и [Гексогональной архитектуры](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)).
-Он также хорошо подходит для использования в архитектуре [микросервиса](https://en.wikipedia.org/wiki/Microservices).
+Этот шаблон проекта предназначен для реализации [Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) (DDD).
 
 Этот шаблон может быть имплементирован на любом языке программирования.
 Далее будет описано, как правильно группировать модули и общие части кода.
