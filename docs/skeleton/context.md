@@ -17,72 +17,40 @@ todo: Перенести инфу о Симфони в другую докуме
 Структура проекта включает новый каталог `context/`, в котором организованы файлы конфигурации и представления в соответствии с контекстом ядра.
 Каталог `src/` содержит основную функциональность приложения, разделенную на модули для лучшей организаций и управления.
 
-    ├── config/
-    ├── context/
-    │   ├── admin/
-    │   │   ├── config/
-    │   │   └── src/
-    │   │       ├── Command/
-    │   │       └── Controller/
-    │   ├── api/
-    │   ├── site/
-    │   └── Kernel.php
-    ├── src/
-    │   ├── Module/
-    │   │   └── SubModule/
-    │   │       ├── Application/
-    │   │       ├── Domain/
-    │   │       ├── Infrastructure/
-    │   │       └── Presentation/
-    │   ├── Shared/
-    │   │   ├── Application/
-    │   │   ├── Domain/
-    │   │   ├── Infrastructure/
-    │   │   └── Presentation/
-    ├── var/
-    │   ├── admin/
-    │   │   ├── cache/
-    │   │   │   ├── dev/
-    │   │   │   └── prod/
-    │   │   ├── api/
-    │   │   └── site/
-    │   ├── cache/
-    │   └── logs/
+    config/
+    context/
+        admin/
+            config/
+            src/
+                Command/
+                Controller/
+        api/
+        site/
+        Kernel.php
+    src/
+        Module/
+            SubModule/
+                Application/
+                Domain/
+                Infrastructure/
+                Presentation/
+        Shared/
+            Application/
+            Domain/
+            Infrastructure/
+            Presentation/
+    var/
+        admin/
+            dev/
+                log/
+                cache/
+            prod/
+            test/
+        api/
+        site/
+        console/
 
-* config/
-* context/
-    * admin/
-        * config/
-        * src/
-            * Command/
-            * Controller/
-    * api/
-    * site/
-    * Kernel.php
-* src/
-    * Module/
-        * SubModule/
-            * Application/
-            * Domain/
-            * Infrastructure/
-            * Presentation/
-    * Shared/
-        * Application/
-        * Domain/
-        * Infrastructure/
-        * Presentation/
-* var/
-    * admin/
-        * dev/
-            * log/
-            * cache/
-        * prod/
-        * test/
-    * api/
-    * site/
-    * console/
-
-Структура проекта включает в себя подкаталоги: admin, api и site, как часть контекстного подхода ядра.
+Структура проекта включает в себя подкаталоги: `admin`, `api` и `site`, как часть контекстного подхода ядра.
 Эти каталоги содержат все файлы и конфигурации, характерные для каждого контекста.
 Напротив, файлы и каталоги, расположенные в корне каталога `config/`, распознаются как глобальная конфигурация для всех контекстов.
 

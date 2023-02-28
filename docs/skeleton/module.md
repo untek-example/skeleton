@@ -7,28 +7,15 @@
 
 Логика разделяется по разным модулям, которые решают ограниченный круг задач.
 
-    ├── src/
-    │   ├── Module/
-    │   │   └── SubModule/
-    │   │       ├── Application/
-    │   │       ├── Domain/
-    │   │       ├── Infrastructure/
-    │   │       └── Presentation/
-    │   ├── Shared/
-    │   │   ├── Application/
-    │   │   ├── Domain/
-    │   │   ├── Infrastructure/
-    │   │   └── Presentation/
-
-* src/
-    * Module/
-        * SubModule/
-            * Application/
-            * Domain/
-            * Infrastructure/
-            * Presentation/
-    * Shared/
-        * Application/
-        * Domain/
-        * Infrastructure/
-        * Presentation/
+    src/
+        Module/
+            SubModule/
+                Application/
+                Domain/
+                Infrastructure/
+                Presentation/
+        Shared/
+            Application/
+            Domain/
+            Infrastructure/
+            Presentation/
