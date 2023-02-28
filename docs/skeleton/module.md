@@ -14,6 +14,8 @@
                 Domain/
                 Infrastructure/
                 Presentation/
+            SubModule2/
+            SubModule3/
         Shared/
             Application/
             Domain/

@@ -34,6 +34,8 @@ todo: Перенести инфу о Симфони в другую докуме
                 Domain/
                 Infrastructure/
                 Presentation/
+            SubModule2/
+            SubModule3/
         Shared/
             Application/
             Domain/
