@@ -3,6 +3,7 @@
     "description": "A Symfony skeleton for DDD approach",
     "type": "project",
     "license": "MIT",
+  "homepage": "https://untek-lab.github.io",
     "require": {
         "php": ">=8.0.2",
         "ext-ctype": "*",
